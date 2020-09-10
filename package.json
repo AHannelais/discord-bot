@@ -2,12 +2,12 @@
     "name": "discord-bot",
     "version": "1.0.0",
     "description": "simple discord bot",
-    "main": "src/server.ts",
+    "main": "src/index.ts",
     "scripts": {
-        "start": "node -r ts-node/register ./src/server.ts",
+        "start": "node -r ts-node/register ./src/index.ts",
         "dev": "nodemon",
         "build": "tsc",
-        "prod": "node ./dist/server.js"
+        "prod": "node ./dist/index.js"
     },
     "nodemonConfig": {
         "ignore": [
