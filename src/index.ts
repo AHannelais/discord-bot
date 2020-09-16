@@ -7,7 +7,7 @@ console.log(process.env.DISCORDJS_JS_BOT_TOKEN);
 const client = new Client();
 const PREFIX = '/';
 client.on('ready', () => {
-    console.log(`${client.user?.username} has logged in`);
+    console.log(`${client.user?.username} has logged in !`);
 });
 client.on('message', (message) => {
     if (message.author.bot) return;
